@@ -21,8 +21,8 @@ public class TmEntity {
     @Column
     private Long edad;
 
-    @Column(length  = 8)
-    private String prob;
+    @Column
+    private BigDecimal prob;
 
     @Column
     private Date fecha;
